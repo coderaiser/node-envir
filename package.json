@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "get npm env variables from package.json",
-  "homepage": "http://github.com/coderaiser/environ",
+  "homepage": "http://github.com/coderaiser/node-envir",
   "main": "lib/envir.js",
   "scripts": {
     "lint": "redrun lint:*",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/environ.git"
+    "url": "git://github.com/coderaiser/node-envir.git"
   },
   "dependencies": {
     "all-object-keys": "^1.1.0",
