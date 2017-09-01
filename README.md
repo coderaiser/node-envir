@@ -1,6 +1,6 @@
 # Envir [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
-Get npm env variables from package.json.
+Get npm [env][packagejson-vars] [variables][per-package-config] from package.json.
 
 ## Install
 
@@ -44,4 +44,7 @@ MIT
 
 [CoverageURL]:              https://coveralls.io/github/coderaiser/node-envir?branch=master
 [CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/node-envir/badge.svg?branch=master&service=github
+
+[packagejson-vars]:         https://docs.npmjs.com/misc/scripts#packagejson-vars
+[per-package-config]:       https://docs.npmjs.com/misc/config#per-package-config-settings
 
