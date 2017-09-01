@@ -29,10 +29,11 @@
     "node": ">=4"
   },
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "eslint": "^4.0.0",
     "nodemon": "^1.11.0",
     "nyc": "^11.1.0",
-    "tape": "^4.8.0",
-    "redrun": "^5.9.16"
+    "redrun": "^5.9.16",
+    "tape": "^4.8.0"
   }
 }
