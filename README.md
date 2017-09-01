@@ -1,4 +1,4 @@
-# Envir [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
+# Envir [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 Get npm env variables from package.json.
 
@@ -41,4 +41,7 @@ MIT
 [BuildStatusURL]:           https://travis-ci.org/coderaiser/node-envir  "Build Status"
 [DependencyStatusURL]:      https://gemnasium.com/coderaiser/node-envir "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
+
+[CoverageURL]:              https://coveralls.io/github/coderaiser/node-envir?branch=master
+[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/node-envir/badge.svg?branch=master&service=github
 
