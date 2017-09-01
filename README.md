@@ -34,11 +34,11 @@ envir(env.PATH, cwd(), require('./package'));
 MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/envir.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/envir/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/envir.svg?style=flat
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/node-envir/master.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/node-envir.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/envir "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/envir  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/envir "Dependency Status"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/node-envir  "Build Status"
+[DependencyStatusURL]:      https://gemnasium.com/coderaiser/node-envir "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
