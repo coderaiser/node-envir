@@ -1,6 +1,6 @@
 {
   "name": "envir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "get npm env variables from package.json",
   "homepage": "http://github.com/coderaiser/node-envir",

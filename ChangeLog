@@ -1,0 +1,5 @@
+2017.09.01, v1.0.1
+
+fix:
+- (package) environ -> envir
+
