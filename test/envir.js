@@ -1,6 +1,6 @@
 'use strict';
 
-const test = require('tape');
+const test = require('supertape');
 const envir = require('..');
 
 test('envir: no pathEnv', (t) => {
@@ -26,7 +26,7 @@ test('envir', (t) => {
     const name = 'hello';
     const version = '1.0.0';
     const config = {
-        hello: 'world'
+        hello: 'world',
     };
     
     const result = envir('/', '/dir', {

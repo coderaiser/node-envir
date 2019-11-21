@@ -1,6 +1,6 @@
 'use strict';
 
-const test = require('tape');
+const test = require('supertape');
 const env = require('../lib/env');
 
 test('env: $PATH', (t) => {
@@ -20,14 +20,13 @@ test('env: empty config', (t) => {
     t.end();
 });
 
-
 test('env: $npm_package_config', (t) => {
     const result = {
-        npm_package_config_poly: 'hello'
+        npm_package_config_poly: 'hello',
     };
     
     const config = env.config({
-        poly: 'hello'
+        poly: 'hello',
     });
     
     t.deepEqual(config, result, 'should build npm config');
@@ -36,13 +35,13 @@ test('env: $npm_package_config', (t) => {
 
 test('env: $npm_package_config', (t) => {
     const result = {
-        npm_package_config_compile_client: 'hello'
+        npm_package_config_compile_client: 'hello',
     };
     
     const config = env.config({
         compile: {
-            client: 'hello'
-        }
+            client: 'hello',
+        },
     });
     
     t.deepEqual(config, result, 'should build npm config');
@@ -51,13 +50,13 @@ test('env: $npm_package_config', (t) => {
 
 test('env: $npm_package_config: name with "_"', (t) => {
     const result = {
-        npm_package_config_compile_client_min: 'hello'
+        npm_package_config_compile_client_min: 'hello',
     };
     
     const config = env.config({
         compile: {
-            client_min: 'hello'
-        }
+            client_min: 'hello',
+        },
     });
     
     t.deepEqual(config, result, 'should build npm config');
