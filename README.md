@@ -1,4 +1,4 @@
-# Envir [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+# Envir [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 Get npm [env][packagejson-vars] [variables][per-package-config] from package.json.
 
@@ -34,10 +34,10 @@ envir(env.PATH, cwd(), require('./package'));
 MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/envir.svg?style=flat
-[BuildStatusIMGURL]:        https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml/badge.svg
 [NPMURL]:                   https://npmjs.org/package/envir "npm"
+
+[BuildStatusIMGURL]:        https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml/badge.svg
 [BuildStatusURL]:           https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml
-[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
 [CoverageURL]:              https://coveralls.io/github/coderaiser/node-envir?branch=master
 [CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/node-envir/badge.svg?branch=master&service=github
