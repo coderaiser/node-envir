@@ -11,8 +11,7 @@ test('env: $PATH', (t) => {
 });
 
 test('env: empty config', (t) => {
-    const result = {
-    };
+    const result = {};
     
     const config = env.config();
     
@@ -62,4 +61,3 @@ test('env: $npm_package_config: name with "_"', (t) => {
     t.deepEqual(config, result, 'should build npm config');
     t.end();
 });
-
