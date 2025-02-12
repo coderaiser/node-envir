@@ -1,4 +1,4 @@
-# Envir [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+# Envir [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 Get npm [env][packagejson-vars] [variables][per-package-config] from package.json.
 
@@ -35,11 +35,9 @@ MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/envir.svg?style=flat
 [BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/node-envir/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/node-envir.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/envir "npm"
 [BuildStatusURL]:           https://travis-ci.org/coderaiser/node-envir  "Build Status"
-[DependencyStatusURL]:      https://david-dm.org/coderaiser/node-envir "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
 [CoverageURL]:              https://coveralls.io/github/coderaiser/node-envir?branch=master
