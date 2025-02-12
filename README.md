@@ -34,10 +34,9 @@ envir(env.PATH, cwd(), require('./package'));
 MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/envir.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/node-envir/master.svg?style=flat
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[BuildStatusIMGURL]:        https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml/badge.svg
 [NPMURL]:                   https://npmjs.org/package/envir "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/node-envir  "Build Status"
+[BuildStatusURL]:           https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
 [CoverageURL]:              https://coveralls.io/github/coderaiser/node-envir?branch=master
@@ -45,4 +44,3 @@ MIT
 
 [packagejson-vars]:         https://docs.npmjs.com/misc/scripts#packagejson-vars
 [per-package-config]:       https://docs.npmjs.com/misc/config#per-package-config-settings
-
