@@ -1,6 +1,7 @@
 {
   "name": "envir",
   "version": "3.0.0",
+  "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "get npm env variables from package.json",
   "homepage": "http://github.com/coderaiser/node-envir",
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/node-envir.git"
+    "url": "git+https://github.com/coderaiser/node-envir.git"
   },
   "dependencies": {
     "all-object-keys": "^3.0.0",
