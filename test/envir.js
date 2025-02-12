@@ -25,7 +25,7 @@ test('envir: no info', (t) => {
     t.end();
 });
 
-test('envir', (t) => {
+test('envir: base', (t) => {
     const name = 'hello';
     const version = '1.0.0';
     const config = {

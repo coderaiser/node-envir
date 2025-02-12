@@ -32,7 +32,7 @@ test('env: $npm_package_config', (t) => {
     t.end();
 });
 
-test('env: $npm_package_config', (t) => {
+test('env: $npm_package_config: nested', (t) => {
     const result = {
         npm_package_config_compile_client: 'hello',
     };
