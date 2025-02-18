@@ -1,8 +1,6 @@
-'use strict';
-
-const test = require('supertape');
-const tryCatch = require('try-catch');
-const envir = require('..');
+import test from 'supertape';
+import tryCatch from 'try-catch';
+import envir from '../lib/envir.js';
 
 test('envir: no pathEnv', (t) => {
     const [error] = tryCatch(envir);

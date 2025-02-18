@@ -1,7 +1,5 @@
-'use strict';
-
-const test = require('supertape');
-const env = require('../lib/env');
+import test from 'supertape';
+import env from '../lib/env.js';
 
 test('env: $PATH', (t) => {
     const path = env.path('hello:world', 'home');
