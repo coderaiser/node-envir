@@ -1,5 +1,14 @@
 # Envir [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
+[NPMIMGURL]: https://img.shields.io/npm/v/envir.svg?style=flat
+[NPMURL]: https://npmjs.org/package/envir "npm"
+[BuildStatusIMGURL]: https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml/badge.svg
+[BuildStatusURL]: https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml
+[CoverageURL]: https://coveralls.io/github/coderaiser/node-envir?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/node-envir/badge.svg?branch=master&service=github
+[packagejson-vars]: https://docs.npmjs.com/misc/scripts#packagejson-vars
+[per-package-config]: https://docs.npmjs.com/misc/config#per-package-config-settings
+
 Get npm [env][packagejson-vars] [variables][per-package-config] from package.json.
 
 ## Install
@@ -11,7 +20,7 @@ npm i envir --save
 ## How to use?
 
 ```js
-const envir = require('envir');
+import envir from 'envir';
 const {env, cwd} = process;
 
 envir(env.PATH, cwd(), require('./package'));
@@ -32,12 +41,3 @@ envir(env.PATH, cwd(), require('./package'));
 ## License
 
 MIT
-
-[NPMIMGURL]: https://img.shields.io/npm/v/envir.svg?style=flat
-[NPMURL]: https://npmjs.org/package/envir "npm"
-[BuildStatusIMGURL]: https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml/badge.svg
-[BuildStatusURL]: https://github.com/coderaiser/node-envir/actions/workflows/nodejs.yml
-[CoverageURL]: https://coveralls.io/github/coderaiser/node-envir?branch=master
-[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/node-envir/badge.svg?branch=master&service=github
-[packagejson-vars]: https://docs.npmjs.com/misc/scripts#packagejson-vars
-[per-package-config]: https://docs.npmjs.com/misc/config#per-package-config-settings
