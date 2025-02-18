@@ -21,6 +21,7 @@ npm i envir --save
 
 ```js
 import envir from 'envir';
+
 const {env, cwd} = process;
 
 envir(env.PATH, cwd(), require('./package'));
